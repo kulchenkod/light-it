@@ -26,7 +26,6 @@ class SignUp extends React.Component {
             username: '',
             password: ''
         })
-        history.push('/')
     }
 
     change = event => {

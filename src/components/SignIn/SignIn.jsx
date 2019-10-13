@@ -21,11 +21,11 @@ class SignIn extends React.Component {
         const { registration, history} = this.props;
 
         registration(username, password);
+        
         this.setState({
             username: '',
             password: ''
         })
-        history.push('/')
     }
 
     change = event => {
